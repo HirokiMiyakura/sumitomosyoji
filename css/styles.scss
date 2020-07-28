@@ -49,16 +49,19 @@ section {
       font-weight: 900;
       color: #222;
       letter-spacing: 0.1em;
+      & > p {
+        font-weight: 900;
+      }
     }
     p {
       text-align: center;
       font-size: .85em;
-      font-weight: 900;
+      // font-weight: 900;
       letter-spacing: 0.1em;
     }
-    .talkTheme {
+    .bold {
       line-height: 2;
-      font-weight: 400;
+      font-weight: 900;
     }
   }
 }
@@ -127,7 +130,8 @@ footer {
   section {
     padding: 15px;
     .sectionInner {
-      .talkTheme {
+      p,
+      .bold {
         text-align: left;
       }
     }

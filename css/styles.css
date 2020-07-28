@@ -44,16 +44,19 @@ section .sectionInner h2 {
   letter-spacing: 0.1em;
 }
 
+section .sectionInner h2 > p {
+  font-weight: 900;
+}
+
 section .sectionInner p {
   text-align: center;
   font-size: .85em;
-  font-weight: 900;
   letter-spacing: 0.1em;
 }
 
-section .sectionInner .talkTheme {
+section .sectionInner .bold {
   line-height: 2;
-  font-weight: 400;
+  font-weight: 900;
 }
 
 .subTitle {
@@ -132,7 +135,8 @@ footer p {
   section {
     padding: 15px;
   }
-  section .sectionInner .talkTheme {
+  section .sectionInner p,
+  section .sectionInner .bold {
     text-align: left;
   }
   .container .containerItem {
