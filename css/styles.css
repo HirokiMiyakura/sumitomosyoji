@@ -1,0 +1,147 @@
+.sp {
+  display: none;
+}
+
+header {
+  border-top: 4px solid #b5dedb;
+  border-bottom: 1px solid silver;
+}
+
+.headerInner {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.headerInner h1 {
+  font-size: 1.4em;
+  letter-spacing: .2em;
+  padding-left: 15px;
+}
+
+main {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+section {
+  padding: 35px 0;
+}
+
+section .sectionInner {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+section .sectionInner h2 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 900;
+  color: #222;
+  letter-spacing: 0.1em;
+}
+
+section .sectionInner p {
+  text-align: center;
+  font-size: .85em;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+
+section .sectionInner .talkTheme {
+  line-height: 2;
+  font-weight: 400;
+}
+
+.subTitle {
+  margin-top: 25px;
+  padding: 15px;
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: .2em;
+}
+
+.corporate {
+  background-color: #dbb5de;
+}
+
+.sales {
+  background-color: #dedbb5;
+}
+
+.container {
+  display: -webkit-box;
+  display: flex;
+  display: -ms-flexbox;
+  justify-content: space-around;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .containerItem {
+  width: 30%;
+  margin-bottom: 25px;
+}
+
+.container .containerItem h4 {
+  font-size: 1em;
+  letter-spacing: .1em;
+}
+
+.videoBox {
+  width: 100%;
+  height: 0;
+  position: relative;
+  padding-top: 56.25%;
+  overflow: hidden;
+  border: 2px solid #b5dedb;
+}
+
+.videoBox iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+footer {
+  background-color: #b5dedb;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 0;
+  padding: 15px 0;
+  font-size: .85em;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    padding: 25px 0;
+  }
+  section {
+    padding: 15px;
+  }
+  section .sectionInner .talkTheme {
+    text-align: left;
+  }
+  .container .containerItem {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+  }
+  .sp {
+    display: block;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
